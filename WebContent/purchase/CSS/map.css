@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'paybooc-Bold';
+}
+
+@font-face {
+    font-family: 'paybooc-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --main-color: #f9d423;
+    --main-color-hover: rgba(249, 212, 35, 0.8)
+}
+
+#wrap {
+    width: 100%;
+}
+
+#side-menu {
+    width: 390px;
+    height: 100%;
+    position: absolute;
+    z-index: 999;
+    background-color: #fff;
+}
+
+#search {
+    width: 390px;
+    height: auto;
+    background-color: var(--main-color);
+}
+
+#search-title {
+    width: 100%;
+    height: 50px;
+}
+
+#search-title * {
+    float: left;
+    font-size: 20px;
+}
+
+#search-title span {
+    margin: 20px 10px 0 20px;
+}
+
+#search-title div {
+    margin: 17.5px 0 0 10px;
+}
+
+.search_bar {
+    width: 90%;
+    height: 50px;
+    background-color: #fff;
+    margin: 10px 5%;
+}
+
+.search_bar * {
+    float: left;
+    height: 100%;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.search_bar span {
+    width: 12.5%;
+}
+
+.search_bar input {
+    width: 75%;
+    border: none;
+    border-radius: 5px;
+    padding-top: 0px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.search_bar input:focus {
+    outline: none;
+}
+
+#search-nav {
+    width: 100%;
+    height: 50px;
+}
+
+#search-nav div {
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 15px;
+    background-color: var(--main-color);
+}
+
+#search-nav div:hover {
+    cursor: pointer;
+}
+
+#weather {
+    width: 100%;
+    height: 60px;
+    padding: 11px;
+    border-bottom: 1px solid #000;
+}
+
+#weather span {
+    height: 20px;
+}
+
+#weather span:nth-of-type(1)~span {
+    font-size: 13px;
+}
+
+#weather span:nth-of-type(2) {
+    padding-right: 5px;
+    border-right: 1px solid #ccc;
+}
+
+#weather .dust:nth-of-type(2n) {
+    color: blue;
+}
+
+#around {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+}
+
+#around>div>div {
+    width: 52.85px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+#around span {
+    font-size: 15px;
+    border-radius: 50%;
+}
+
+#around>div>div:hover {
+    background-color: #EFF7FF;
+}
+
+#favorite {
+    width: 100%;
+    padding: 10px;
+    height: auto;
+}
+
+#favorite ul {
+    list-style: none;
+}
+
+#favorite li {
+    width: 100%;
+    height: 30px;
+    padding: 7px 0 0 0;
+}
+
+#favorite li:hover {
+    background-color: #EFF7FF;
+}
+
+#favorite a {
+    text-decoration: none;
+    color: #888;
+    font-size: 15px;
+}
+
+#map {
+    height: 100%;
+    position: absolute;
+    left: 390px;
+}

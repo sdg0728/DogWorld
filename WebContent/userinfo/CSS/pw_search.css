@@ -28,6 +28,11 @@ label {
     font-size: 1.0rem;
 }
 
+button {
+	width: 100%;	
+}
+
+
 input[type=password], input[type=email], input[type=text] {
 	
     width: 100%;

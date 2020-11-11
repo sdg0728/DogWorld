@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+#header nav ul li:nth-of-type(4) {
+	width: 160px;
+	height: 59px;
+	overflow: hidden;
+}
+
+#header nav ul li:nth-of-type(4):hover {
+	height: 210px;
+	background-color: #ddd;
+}
+
+#header nav ul li:nth-of-type(4):hover #login_id {
+	color: #333;
+}
+
+#login_id {
+	width: 120px;
+	height: 200px;
+	margin-left: 20px;
+	color: #ddd;
+	text-align: center;
+	transition-duration: 0.7s;
+}
+
+.user_id::after{
+	content: "님";
+}
+
+#header nav{
+	width: 650px;
+	right: -7em;
+}
+
+#nav ul{
+	width: 650px;
+    height: 82.5px;
+}
+
+#nav ul li{
+	height: 82.5px;
+	display: block;
+	float: left;
+}
+
+.navbar-nav a{
+    text-decoration: none;
+}
+
+.nav-link a{
+	color: #ddd;
+	text-decoration: none;
+}
+
+.nav-link a:hover{
+	color: #333;
+}
+
+.active a{
+	color: #ddd;
+}

@@ -28,6 +28,10 @@ label {
     font-size: 1.0rem;
 }
 
+button {
+	width: 100%;	
+}
+
 .link_space {
 	margin-top: 0.5rem;
 	margin-bottom: 1.2rem;

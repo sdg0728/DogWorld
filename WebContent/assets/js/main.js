@@ -78,5 +78,10 @@
 
 
 	});
-
+	
+	$(window).resize(() => {
+		let h = $(window).height();
+		$('#banner').css("height", h);
+	});
+	
 })(jQuery);

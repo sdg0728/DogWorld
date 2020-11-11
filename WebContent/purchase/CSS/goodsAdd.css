@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.list_background{
+	padding-top: 82.5px;
+}
+
+.wrap_div *{
+	margin: 5px;
+}
+
+.wrap_div > div > h3{
+	margin: 10px 0;
+}
+
+form[name=reg-frm] label{
+	display: inline-block;
+}

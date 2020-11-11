@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+#header nav ul li:nth-of-type(4) {
+   width: 210px;
+   overflow: hidden;
+}
+
+#header nav ul li:nth-of-type(4):hover {
+   height: 247.5px;
+}
+
+#header nav ul li:nth-of-type(4):hover #login_id {
+   color: #333;
+}
+
+#login_id {
+   width: 120px;
+   height: 90px;
+   margin-left: 20px;
+   color: #333;
+   text-align: center;
+   transition-duration: 0.7s;
+}
+
+#header nav{
+   right: -7em;
+}
+
+#nav ul{
+    height: 82.5px;
+}
+
+#nav ul li{
+   height: 82.5px;
+   display: block;
+   float: left;
+}
+
+.navbar-nav a{
+    text-decoration: none;
+}
+
+.nav-link a{
+   color: #666;
+   text-decoration: none;
+}
+
+.nav-link a:hover{
+   color: #666;
+}
+
+.active a{
+   color: #000;
+}
+
+.pet_info {
+    float: left;
+    width: 30%;
+    height: 30vh;
+    min-width: 300px;
+    border: 1px solid #eaeaea;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+}
+
+.today_work {
+    float: left;
+    margin-left: 5%;
+    width: 65%;
+    height: 30vh;
+    min-width: 300px;
+    border: 1px solid #eaeaea;
+    box-sizing: border-box;
+    padding: 10px 50px;
+    overflow: auto;
+    position: relative;
+}
+
+.bin_space {
+	margin-top: 1.5rem;
+}
+
+.pimg {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.pet_img {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.pet_intro {
+    text-align: center;
+}
+
+.today_work {
+	text-align: center;
+    display: inline-block;
+}
+
+.mypet_main {
+    width: 100%;
+    height: 40vh;
+    box-sizing: border-box;
+    border: 1px solid #d3d3d3;
+}
+
+.secA, .secB {
+    position: relative;
+    display: flex;
+    
+}
+
+.secB {
+    margin-top: 2rem;
+}
+
+#myModal {
+	margin-top: 10%;
+}
+
+@media (max-width: 767px){
+    select {
+        width: 100%;
+        
+    }
+    
+    .imgBtn {
+    	width: 100%;
+    }
+    
+}
+
+@media (min-width: 768px){
+ 
+}

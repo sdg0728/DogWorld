@@ -109,6 +109,30 @@ section p {
 	margin-bottom: 5px; 
 }
 
+button {
+	width: 100%;	
+}
+
+.id_box, .email_box {
+	width: 100%;
+	display: flex;
+}
+
+#input_id, #input_email {
+	width: 70%;
+}
+
+#id_load, #email_load {
+	margin-left: 2%;
+	width: 28%;
+}
+
+#uploadImg {
+	width: 100%;
+	height: auto;
+	
+}
+
 
 @media (max-width: 767px){
     select {
@@ -159,4 +183,37 @@ section p {
 	height: auto; 
 }
 
+
+.btn-file input[type=button] {
+    position: absolute;
+    top: -1000px;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#roadFullAddr {
+    width: 70%;
+}
+
+.address{
+    height: 45px;
+}
+
+.address *{
+    float: left;
+}
+
+#addr_btn {
+	margin-left: 2%;
+	width: 28%;
+}
 

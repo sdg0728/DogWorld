@@ -2801,6 +2801,7 @@
 	}
 
 		#header h1 {
+			width: 100px;
 			color: #484848;
 			font-weight: 400;
 			height: inherit;
@@ -2814,9 +2815,8 @@
 
 		#header h1:first-of-type img {
 			width: 100px;
-			height: 100px;
+			height: 99%;
 			position: absolute;
-			top: -20px;
 		}
 
 		#header nav {
@@ -2829,6 +2829,8 @@
 		}
 
 			#header nav ul {
+				width: 650px;
+				height: 60px;
 				list-style: none;
 				margin: 0;
 				padding-left: 0;
@@ -2836,9 +2838,10 @@
 
 				#header nav ul li {
 					border-radius: 4px;
-					display: inline-block;
+					display: block;
 					margin-left: 2.5em;
 					padding-left: 0;
+					float:left;
 				}
 
 					#header nav ul li a {
@@ -2927,6 +2930,8 @@
 			}
 
 		}
+	
+
 
 /* Menu */
 

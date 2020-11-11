@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+
+#header nav ul li:nth-of-type(4) {
+   width: 210px;
+   overflow: hidden;
+}
+
+#header nav ul li:nth-of-type(4):hover {
+   height: 247.5px;
+}
+
+#header nav ul li:nth-of-type(4):hover #login_id {
+   color: #333;
+}
+
+#login_id {
+   width: 120px;
+   height: 90px;
+   margin-left: 20px;
+   color: #333;
+   text-align: center;
+   transition-duration: 0.7s;
+}
+
+#header nav{
+   right: -7em;
+}
+
+#nav ul{
+    height: 82.5px;
+}
+
+#nav ul li{
+   height: 82.5px;
+   display: block;
+   float: left;
+}
+
+.navbar-nav a{
+    text-decoration: none;
+}
+
+.nav-link a{
+   color: #666;
+   text-decoration: none;
+}
+
+.nav-link a:hover{
+   color: #666;
+}
+
+.active a{
+   color: #000;
+}
+
+#sign_secA > .container {
+    padding: 16px;
+}
+
+label {
+    font-size: 1.0rem;
+}
+
+.link_space {
+	margin-top: 0.5rem;
+	margin-bottom: 1.2rem;
+}
+
+input[type=password], input[type=text] {
+	
+    width: 100%;
+    padding:6px 20px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.find_link {
+	margin-left: 10px;
+	text-decoration: none;
+	color: black;
+}
+
+#sign_secA > .container > button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+#sign_secA > .container > button:hover {
+    opacity: 0.8;
+}
+ 
+@media (max-width: 767px){
+    select {
+        width: 100%;
+        
+    }
+    
+    .imgBtn {
+    	width: 100%;
+    }
+}
+
+@media (min-width: 768px){
+
+    #sign_secA  > .container { 
+        display: block;
+        max-width: 600px;  
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 22px;
+
+    }
+    
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.btn-file input[type=button] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}

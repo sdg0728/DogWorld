@@ -1,0 +1,101 @@
+body {
+	padding-top: 82.5px;
+}
+
+.list_background {
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+.user_id::after{
+	content: "님";
+}
+.title {
+	width: 100%;
+}
+
+.title h3 {
+	margin-top: 10px;
+	margin-left: 5%;
+}
+
+#header nav ul li:nth-of-type(4) {
+	width: 210px;
+	overflow: hidden;
+}
+
+#header nav ul li:nth-of-type(4):hover {
+	height: 247.5px;
+}
+
+#header nav ul li:nth-of-type(4):hover #login_id {
+	color: #333;
+}
+
+#login_id {
+	width: 120px;
+	height: 90px;
+	margin-left: 20px;
+	color: #333;
+	text-align: center;
+	transition-duration: 0.7s;
+}
+
+#header nav{
+	right: -7em;
+}
+
+#nav ul{
+    height: 82.5px;
+}
+
+#nav ul li{
+	height: 82.5px;
+	display: block;
+	float: left;
+}
+.goods_wrap{
+    width: 100%;
+    height: auto;
+}
+
+.goods{
+    width: 90%;
+    height: 250px;
+    margin-bottom: 30px;
+    border: 1px solid #000;
+    position: relative;
+    left: 50%;
+    margin-left: -45%;
+}
+
+.goods-img{
+    width: 30%;
+    height: 100%;
+    margin-left: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+.goods-img img{
+    height: 100%;
+}
+
+.goods-content{
+    width: 54%;
+    margin-top: 15px;
+    margin-left: 1%;
+    float: left;
+}
+
+.order_cancle{
+    width: 10%;
+    float: right;
+    margin: 1% 1% 0 0;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hidden_button{
+	display:none;
+}

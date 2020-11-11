@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+.info_view {
+	height: 40vh;
+	box-sizing: border-box;
+	display: flex;
+}
+
+#info_img {
+	float:left;
+	width: 30%;
+	height: 70%;
+	line-height: 40vh;
+}
+
+#main_box {
+	float: left;
+	width: 60%;
+	height: 100%;
+}
+
+#info_title {
+	margin-top: 9.5%;
+	margin-left: 3%;
+	width: 100%;
+	
+}
+
+
+#info_img > img {
+	width: 100%;
+	height: 100%;
+}
+
+#info_content {
+	width: 100%;
+	margin-left: 3.5%;
+	
+}
+
+#info_link {
+	margin-top: 10%;
+	width: 100%;
+	margin-left: 3.5%;
+	
+}
+
+a:link, a:visited, a:active {
+	text-decoration: none;
+	color: #646464;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #eaea3e;
+}
+
+

@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13pt;
+    font-weight: 400;
+    line-height: 2em;
+    box-sizing: border-box;
+}
+.user_id::after{
+	content: "님";
+}
+#header nav ul li:nth-of-type(4) {
+	width: 210px;
+	overflow: hidden;
+}
+
+#header nav ul li:nth-of-type(4):hover {
+	height: 247.5px;
+}
+
+#header nav ul li:nth-of-type(4):hover #login_id {
+	color: #333;
+}
+
+#login_id {
+	width: 120px;
+	height: 200px;
+	margin-left: 20px;
+	color: #333;
+	text-align: center;
+	transition-duration: 0.7s;
+}
+
+#header nav{
+	
+
+	right: -7em;
+}
+
+#nav ul{
+    height: 82.5px;
+}
+
+#nav ul li{
+	height: 82.5px;
+	display: block;
+	float: left;
+}
+
+.navbar-nav a{
+    text-decoration: none;
+}
+
+.nav-link a{
+	color: #666;
+	text-decoration: none;
+}
+
+.nav-link a:hover{
+	color: #666;
+}
+
+.active a{
+	color: #000;
+}
+.goods {
+	width: 100%;
+	height: 100%;
+}
+
+.goods-detail {
+	width: 90%;
+	height: 400px;
+	position: relative;
+	left: 50%;
+	margin-left: -45%;
+}
+
+.goods-title {
+	width: 48%;
+	height: 95%;
+	position: relative;
+	top: 2.5%;
+	left: 1%;
+	float: left;
+}
+
+.goods-title img {
+	width: 100%;
+	height: 100%;
+}
+
+.goods-content {
+	width: 48%;
+	height: 55%;
+	position: relative;
+	top: 2.5%;
+	left: 3%;
+	float: left;
+	border: 1px solid #888;
+	border-bottom: 0px solid #888;
+}
+
+.goods-content * {
+	padding: 1%;
+}
+
+.buttons {
+	width: 48%;
+	height: 120px;
+	position: relative;
+	top: 2.5%;
+	left: 3%;
+	float: left;
+	border: 1px solid #888;
+	border-top: 0px solid #888;
+}
+
+.button {
+	position: relative;
+	top: 0;
+	margin-right: 1%;
+	float: right;
+}
+
+.buttons form:first-of-type {
+	margin-bottom: 0;
+}
+
+.count {
+	width: 100%;
+	height: 60px;
+}
+
+#count {
+	width: 25%;
+	background-color: #fff;
+	float: right;
+	margin: 1% 1% 0 0;
+}
+
+.button a, .button a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.detail {
+	width: 90%;
+	height: auto;
+	position: relative;
+	left: 50%;
+	margin-left: -45%;
+}
+
+.details {
+	width: 100%;
+	height: 0;
+	overflow: hidden;
+}
+
+.detail_img {
+	width: 100%;
+	height: auto;
+}
+
+.detail_img img {
+	width: 100%;
+	height: auto;
+}
+
+.review-wrap {
+	width: 90%;
+	height: auto;
+	position: relative;
+	left: 50%;
+	margin-left: -45%;
+}
+
+.review {
+	width: 100%;
+	height: 150px;
+	padding: 1%;
+	margin-bottom: 10px;
+	border: 1px solid #000;
+}
+
+.review div {
+	float: left;
+}
+
+.review_img {
+	width: 20%;
+	height: 100%;
+	margin-right: 1%;
+}
+
+.review_img img {
+	width: 100%;
+	height: 100%;
+}
+
+.review_content {
+	width: 65%;
+	height: 100%;
+}
+
+.review_id {
+	margin-bottom: 10px;
+}
+
+.review_content p {
+	height: 115px;
+	overflow: auto;
+}
+
+.btns {
+	width: 82px;
+	height: auto;
+	margin-left: 3.5%;
+}
+
+.btns * {
+	margin-bottom: 10px;
+}
+
+.no_review {
+	width: 100%;
+	height: 100%;
+	padding: 45px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.write_wrap {
+	width: 90%;
+	height: 200px;
+	margin-left: 5%;
+	border: 2px solid #ddd;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+
+.write textarea {
+	width: 95%;
+	height: 135px;
+	margin: 5px 2.5% 10px 2.5%;
+	padding: 5px;
+	resize: none;
+}
+
+.file_upload {
+	padding-left: 2.5%;
+	margin-top: 5px;
+}
+
+.write_button button {
+	margin-right: 2.5%;
+}
+
+.image_button_wrap {
+	width: 100%;
+	float: left;
+}
+
+.submit_button {
+	float: right;
+}
+
+#myModal {
+	position: fixed;
+	top: 200px;
+}
+
+#upContent {
+	resize: none;
+	margin-bottom: 5px;
+}
